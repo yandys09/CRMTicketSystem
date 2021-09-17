@@ -15,7 +15,7 @@ export const LoginForm = ({ handleOnChange, handleOnSubmit,formSwitcher, email, 
               <Form.Control
                 type="email"
                 name="email"
-                value={email}
+                defaultValue={email}
                 onChange={handleOnChange}
                 placeholder="Enter Email"
                 required
@@ -27,8 +27,8 @@ export const LoginForm = ({ handleOnChange, handleOnSubmit,formSwitcher, email, 
                 type="password"
                 name="password"
                 onChange={handleOnChange}
-                value={pass}
-                placeholder="Password"
+                defaultValue={pass}
+                placeholder="password"
                 required
               />
             </Form.Group>
@@ -40,7 +40,7 @@ export const LoginForm = ({ handleOnChange, handleOnSubmit,formSwitcher, email, 
 
       <Row>
         <Col>
-          <a href="#!" onClick={()=>formSwitcher('rest')}>
+          <a href="#!" onClick={() => formSwitcher("rest")}>
             Forget Password?
           </a>
         </Col>
