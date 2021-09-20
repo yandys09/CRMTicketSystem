@@ -22,7 +22,7 @@ export const Dashboard = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="mt-2">Recently Added Tickest</Col>
+        <Col className="mt-2">Recently Added Ticket</Col>
       </Row>
       <hr />
       <Row>
