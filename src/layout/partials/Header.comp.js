@@ -9,7 +9,7 @@ export const Header = () => {
         <img src={logo} alt="logo" width="40px" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse id="basic-navbar-nav ">
         <Nav className="m1-auto">
           <Nav.Link href="/dashboard">DashBoard</Nav.Link>
           <Nav.Link href="/tickets">Tickets</Nav.Link>
