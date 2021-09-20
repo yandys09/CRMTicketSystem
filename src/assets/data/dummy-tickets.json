@@ -58,11 +58,5 @@
 "subject":"ss1 issue",
 "status": "Client response pending",
 "addedAt": "2020-09-23"
-},
-{
-"id" : 11, 
-"subject":"ss1 issue",
-"status": "Client response pending",
-"addedAt": "2020-09-23"
 }
 ]

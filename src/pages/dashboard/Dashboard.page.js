@@ -17,12 +17,12 @@ export const Dashboard = () => {
       </Row>
       <Row>
         <Col className="text-center mb-2">
-          <div>Total tickets : 50</div>
-          <div>Pending tickets : 5</div>
+          <div>Total tickets :50</div>
+          <div>Pending tickets :5</div>
         </Col>
       </Row>
       <Row>
-        <Col className="mt-2">Recently Added Tickest!!</Col>
+        <Col className="mt-2">Recently Added Tickest</Col>
       </Row>
       <hr />
       <Row>
