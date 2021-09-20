@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { TicketTable } from "../../components/ticket-table/TicketTable.comp";
-import tickets from '../../assets/data/dummy-tickets.json'
+import tickets from "../../assets/data/dummy-tickets.json";
 export const Dashboard = () => {
   return (
     <Container>
@@ -22,7 +22,7 @@ export const Dashboard = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="mt-2">Recently Added Tickest</Col>
+        <Col className="mt-2">Recently Added Tickest!!</Col>
       </Row>
       <hr />
       <Row>
