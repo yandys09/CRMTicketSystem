@@ -16,9 +16,11 @@ export const Entry = () => {
       case "email":
         setEmail(value);
         break;
+
       case "password":
         setPassword(value);
         break;
+
       default:
         break;
     }
