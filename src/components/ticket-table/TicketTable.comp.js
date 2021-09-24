@@ -1,7 +1,9 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 export const TicketTable = ({ tickets }) => {
+  
   return (
     <Table striped bordered hover>
       <thead>
@@ -17,7 +19,7 @@ export const TicketTable = ({ tickets }) => {
           tickets.map((row) => (
             <tr key={row.id}>
               <td>{row.id}</td>
-              <td>{row.status}</td>
+              <td>{row.subject}</td>
               <td>{row.status}</td>
               <td>{row.addedAt}</td>
             </tr>
@@ -32,4 +34,8 @@ export const TicketTable = ({ tickets }) => {
       </tbody>
     </Table>
   );
+};
+
+TicketTable.prototype = {
+  tickets: PropTypes.array.isRequired,
 };
