@@ -2,7 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
-export const LoginForm = ({ handleOnChange, handleOnSubmit,formSwitcher, email, pass }) => {
+export const LoginForm = ({
+  handleOnChange,
+  handleOnSubmit,
+  formSwitcher,
+  email,
+  pass,
+}) => {
   return (
     <Container>
       <Row>
@@ -15,7 +21,7 @@ export const LoginForm = ({ handleOnChange, handleOnSubmit,formSwitcher, email, 
               <Form.Control
                 type="email"
                 name="email"
-                defaultValue={email}
+                value={email}
                 onChange={handleOnChange}
                 placeholder="Enter Email"
                 required
@@ -27,7 +33,7 @@ export const LoginForm = ({ handleOnChange, handleOnSubmit,formSwitcher, email, 
                 type="password"
                 name="password"
                 onChange={handleOnChange}
-                defaultValue={pass}
+                value={pass}
                 placeholder="password"
                 required
               />
