@@ -3,60 +3,131 @@
 "id" : 1, 
 "subject":"Email certificate expired",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf",
+    "messageBy": "operator"
+  },
+   {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf",
+    "messageBy": "client"
+  },
+   {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf",
+    "messageBy": "operator"
+  }
+]
 },
  {
 "id" : 2,
 "subject":"naver issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 },
  {
 "id" : 3, 
 "subject":"ss1 issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 },
  {
 "id" : 4, 
 "subject":"ss1 issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 },
  {
 "id" : 5, 
 "subject":"ss1 issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 },
  {
 "id" : 6, 
 "subject":"ss1 issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 },
  {
 "id" : 7, 
 "subject":"ss1 issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 },
  {
 "id" : 8, 
 "subject":"ss1 issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 },
  {
 "id" : 9, 
 "subject":"ss1 issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 },
  {
 "id" : 10, 
 "subject":"ss1 issue",
 "status": "Client response pending",
-"addedAt": "2020-09-23"
+"addedAt": "2020-09-23",
+"history":[
+  {
+    "date":"2020-10-10",
+    "message":"sdfdsfdsf"
+  }
+]
 }
 ]
