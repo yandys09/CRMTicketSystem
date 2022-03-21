@@ -9,7 +9,7 @@ import { Dashboard } from "./pages/dashboard/Dashboard.page";
 import { AddTicket } from "./pages/new-ticket/AddTicket.page";
 import { TicketList } from "./pages/ticket-list/TicketList.page";
 import { Ticket } from "./pages/ticket/Ticket.page";
-import { PrivateRoute } from './components/private-route/PrivateRoute.comp';
+import { PrivateRoute } from "./components/private-route/PrivateRoute.comp";
 
 function App() {
   return (
@@ -19,22 +19,18 @@ function App() {
           <Route exact path="/">
             <Entry />
           </Route>
-
-          
-            <PrivateRoute path="/dashboard">
-              <Dashboard />
-            </PrivateRoute>
-            <PrivateRoute path="/add-ticket">
-              <AddTicket />
-            </PrivateRoute>
-            <PrivateRoute path="/tickets">
-              <TicketList />
-            </PrivateRoute>
-            <PrivateRoute path="/ticket/:tId">
-              <Ticket />
-            </PrivateRoute>
-        
-
+          <PrivateRoute path="/dashboard">
+            <Dashboard />
+          </PrivateRoute>
+          <PrivateRoute path="/add-ticket">
+            <AddTicket />
+          </PrivateRoute>
+          <PrivateRoute path="/tickets">
+            <TicketList />
+          </PrivateRoute>
+          <PrivateRoute path="/ticket/:tId">
+            <Ticket />
+          </PrivateRoute>
         </Switch>
       </Router>
     </div>

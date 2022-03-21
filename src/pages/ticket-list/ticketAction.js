@@ -18,6 +18,6 @@ export const fetchAllTickets = () => async (dispatch) => {
   }
 };
 
-export const filterSerachTicket = (str) => (dispatch) => {
+export const filterSearchTicket = (str) => (dispatch) => {
   dispatch(searchTickets(str));
 };

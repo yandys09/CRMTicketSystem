@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { filterSerachTicket } from "../../pages/ticket-list/ticketAction";
+import { filterSearchTicket } from "../../pages/ticket-list/ticketAction";
 import { Form, Row, Col } from "react-bootstrap";
 
 export const SearchForm = () => {
@@ -9,7 +9,7 @@ export const SearchForm = () => {
   const handleOnChange = (e) => {
     const { value } = e.target;
 
-    dispatch(filterSerachTicket(value));
+    dispatch(filterSearchTicket(value));
   };
 
   return (
